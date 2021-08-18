@@ -5,293 +5,285 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港HKT, server: 120.232.214.49, port: 8310, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中转|香港A, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 32481, type: vmess, uuid: ca0560c2-6755-4ee8-b6f9-183b6928c84a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
-  - {name: 🇭🇰 中转|香港B, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 21392, type: vmess, uuid: ca0560c2-6755-4ee8-b6f9-183b6928c84a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
-  - {name: 🇭🇰 香港HKT 2, server: 124.71.209.31, port: 8311, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港HKT 3, server: 120.232.214.49, port: 8311, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港HKT 4, server: 120.232.214.49, port: 8312, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港HKT 5, server: 124.71.209.31, port: 8312, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港HKT 6, server: 183.236.60.157, port: 8310, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港HKT 7, server: 183.236.60.157, port: 8311, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG-Linode, server: 120.232.214.49, port: 8321, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 高雄Hinet, server: 120.232.214.49, port: 8315, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港HKT 8, server: 124.71.209.31, port: 8310, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 高雄Hinet 2, server: 183.236.60.157, port: 8315, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG-Linode 2, server: 183.236.60.157, port: 8321, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 高雄Hinet 3, server: 183.236.60.157, port: 8308, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: LAX-DediPath, server: 120.232.214.49, port: 8301, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
   - {name: Tokyo-Linode, server: 120.232.214.49, port: 8302, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: Tokyo-Linode 2, server: 183.236.60.157, port: 8302, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG-Linode 3, server: 124.71.209.31, port: 8321, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港HKT 9, server: 183.236.60.157, port: 8312, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: Tokyo-Linode 3, server: 124.71.209.31, port: 8302, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: Tokyo-NTT, server: 124.71.209.31, port: 8309, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 中转|香港C, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 52082, type: vmess, uuid: ca0560c2-6755-4ee8-b6f9-183b6928c84a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
-  - {name: Mumbai-Linode, server: 183.236.60.157, port: 8305, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: Mumbai-Linode 2, server: 120.232.214.49, port: 8305, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: sydney-Linode, server: 183.236.60.157, port: 8304, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 高雄Hinet 4, server: 124.71.209.31, port: 8308, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: LAX-DediPath, server: 183.236.60.157, port: 8301, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: LAX-DediPath 2, server: 120.232.214.49, port: 8301, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
   - {name: GB, server: 120.232.214.49, port: 8306, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT, server: 120.232.214.49, port: 8310, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 2, server: 120.232.214.49, port: 8311, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 3, server: 120.232.214.49, port: 8312, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 高雄Hinet, server: 120.232.214.49, port: 8315, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG-Linode, server: 120.232.214.49, port: 8321, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: Tokyo-Linode 2, server: 124.71.209.31, port: 8302, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 高雄Hinet 2, server: 124.71.209.31, port: 8308, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: Tokyo-NTT, server: 124.71.209.31, port: 8309, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 4, server: 124.71.209.31, port: 8310, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 5, server: 124.71.209.31, port: 8311, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 6, server: 124.71.209.31, port: 8312, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG-Linode 2, server: 124.71.209.31, port: 8321, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中转|香港B, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 21392, type: vmess, uuid: ca0560c2-6755-4ee8-b6f9-183b6928c84a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
+  - {name: 🇭🇰 中转|香港A, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 32481, type: vmess, uuid: ca0560c2-6755-4ee8-b6f9-183b6928c84a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
+  - {name: LAX-DediPath 2, server: 183.236.60.157, port: 8301, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: Tokyo-Linode 3, server: 183.236.60.157, port: 8302, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: sydney-Linode, server: 183.236.60.157, port: 8304, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
   - {name: GB 2, server: 183.236.60.157, port: 8306, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 高雄Hinet 5, server: 220.142.27.170, port: 8300, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 7, server: 183.236.60.157, port: 8310, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 8, server: 183.236.60.157, port: 8311, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 9, server: 183.236.60.157, port: 8312, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 高雄Hinet 3, server: 183.236.60.157, port: 8315, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG-Linode 3, server: 183.236.60.157, port: 8321, type: vmess, uuid: 75be50b4-88f4-4658-afb0-f5c51b0d210a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港1000M丨x1x丨限速100M 负载5台, server: jsyd01.bellscloud.com, port: 10087, type: vmess, uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台, server: jsyd01.bellscloud.com, port: 10088, type: vmess, uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台, server: jsyd01.bellscloud.com, port: 10089, type: vmess, uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台, server: jsyd01.bellscloud.com, port: 10090, type: vmess, uuid: c86eb4e2-e34e-335e-a19e-48b8484ed757, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - LAX-DediPath
+      - Tokyo-Linode
+      - GB
       - 🇭🇰 香港HKT
-      - 🇭🇰 中转|香港A
-      - 🇭🇰 中转|香港B
       - 🇭🇰 香港HKT 2
       - 🇭🇰 香港HKT 3
+      - 🇨🇳 高雄Hinet
+      - 🇸🇬 SG-Linode
+      - Tokyo-Linode 2
+      - 🇨🇳 高雄Hinet 2
+      - Tokyo-NTT
       - 🇭🇰 香港HKT 4
       - 🇭🇰 香港HKT 5
       - 🇭🇰 香港HKT 6
-      - 🇭🇰 香港HKT 7
-      - 🇸🇬 SG-Linode
-      - 🇨🇳 高雄Hinet
-      - 🇭🇰 香港HKT 8
-      - 🇨🇳 高雄Hinet 2
       - 🇸🇬 SG-Linode 2
-      - 🇨🇳 高雄Hinet 3
-      - Tokyo-Linode
-      - Tokyo-Linode 2
-      - 🇸🇬 SG-Linode 3
-      - 🇭🇰 香港HKT 9
-      - Tokyo-Linode 3
-      - Tokyo-NTT
-      - 🇭🇰 中转|香港C
-      - Mumbai-Linode
-      - Mumbai-Linode 2
-      - sydney-Linode
-      - 🇨🇳 高雄Hinet 4
-      - LAX-DediPath
+      - 🇭🇰 中转|香港B
+      - 🇭🇰 中转|香港A
       - LAX-DediPath 2
-      - GB
+      - Tokyo-Linode 3
+      - sydney-Linode
       - GB 2
-      - 🇨🇳 高雄Hinet 5
+      - 🇭🇰 香港HKT 7
+      - 🇭🇰 香港HKT 8
+      - 🇭🇰 香港HKT 9
+      - 🇨🇳 高雄Hinet 3
+      - 🇸🇬 SG-Linode 3
+      - 🇭🇰 香港1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台
+      - 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - LAX-DediPath
+      - Tokyo-Linode
+      - GB
       - 🇭🇰 香港HKT
-      - 🇭🇰 中转|香港A
-      - 🇭🇰 中转|香港B
       - 🇭🇰 香港HKT 2
       - 🇭🇰 香港HKT 3
+      - 🇨🇳 高雄Hinet
+      - 🇸🇬 SG-Linode
+      - Tokyo-Linode 2
+      - 🇨🇳 高雄Hinet 2
+      - Tokyo-NTT
       - 🇭🇰 香港HKT 4
       - 🇭🇰 香港HKT 5
       - 🇭🇰 香港HKT 6
-      - 🇭🇰 香港HKT 7
-      - 🇸🇬 SG-Linode
-      - 🇨🇳 高雄Hinet
-      - 🇭🇰 香港HKT 8
-      - 🇨🇳 高雄Hinet 2
       - 🇸🇬 SG-Linode 2
-      - 🇨🇳 高雄Hinet 3
-      - Tokyo-Linode
-      - Tokyo-Linode 2
-      - 🇸🇬 SG-Linode 3
-      - 🇭🇰 香港HKT 9
-      - Tokyo-Linode 3
-      - Tokyo-NTT
-      - 🇭🇰 中转|香港C
-      - Mumbai-Linode
-      - Mumbai-Linode 2
-      - sydney-Linode
-      - 🇨🇳 高雄Hinet 4
-      - LAX-DediPath
+      - 🇭🇰 中转|香港B
+      - 🇭🇰 中转|香港A
       - LAX-DediPath 2
-      - GB
+      - Tokyo-Linode 3
+      - sydney-Linode
       - GB 2
-      - 🇨🇳 高雄Hinet 5
+      - 🇭🇰 香港HKT 7
+      - 🇭🇰 香港HKT 8
+      - 🇭🇰 香港HKT 9
+      - 🇨🇳 高雄Hinet 3
+      - 🇸🇬 SG-Linode 3
+      - 🇭🇰 香港1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台
+      - 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - LAX-DediPath
+      - Tokyo-Linode
+      - GB
       - 🇭🇰 香港HKT
-      - 🇭🇰 中转|香港A
-      - 🇭🇰 中转|香港B
       - 🇭🇰 香港HKT 2
       - 🇭🇰 香港HKT 3
+      - 🇨🇳 高雄Hinet
+      - 🇸🇬 SG-Linode
+      - Tokyo-Linode 2
+      - 🇨🇳 高雄Hinet 2
+      - Tokyo-NTT
       - 🇭🇰 香港HKT 4
       - 🇭🇰 香港HKT 5
       - 🇭🇰 香港HKT 6
-      - 🇭🇰 香港HKT 7
-      - 🇸🇬 SG-Linode
-      - 🇨🇳 高雄Hinet
-      - 🇭🇰 香港HKT 8
-      - 🇨🇳 高雄Hinet 2
       - 🇸🇬 SG-Linode 2
-      - 🇨🇳 高雄Hinet 3
-      - Tokyo-Linode
-      - Tokyo-Linode 2
-      - 🇸🇬 SG-Linode 3
-      - 🇭🇰 香港HKT 9
-      - Tokyo-Linode 3
-      - Tokyo-NTT
-      - 🇭🇰 中转|香港C
-      - Mumbai-Linode
-      - Mumbai-Linode 2
-      - sydney-Linode
-      - 🇨🇳 高雄Hinet 4
-      - LAX-DediPath
+      - 🇭🇰 中转|香港B
+      - 🇭🇰 中转|香港A
       - LAX-DediPath 2
-      - GB
+      - Tokyo-Linode 3
+      - sydney-Linode
       - GB 2
-      - 🇨🇳 高雄Hinet 5
+      - 🇭🇰 香港HKT 7
+      - 🇭🇰 香港HKT 8
+      - 🇭🇰 香港HKT 9
+      - 🇨🇳 高雄Hinet 3
+      - 🇸🇬 SG-Linode 3
+      - 🇭🇰 香港1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台
+      - 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - LAX-DediPath
+      - Tokyo-Linode
+      - GB
       - 🇭🇰 香港HKT
-      - 🇭🇰 中转|香港A
-      - 🇭🇰 中转|香港B
       - 🇭🇰 香港HKT 2
       - 🇭🇰 香港HKT 3
+      - 🇨🇳 高雄Hinet
+      - 🇸🇬 SG-Linode
+      - Tokyo-Linode 2
+      - 🇨🇳 高雄Hinet 2
+      - Tokyo-NTT
       - 🇭🇰 香港HKT 4
       - 🇭🇰 香港HKT 5
       - 🇭🇰 香港HKT 6
-      - 🇭🇰 香港HKT 7
-      - 🇸🇬 SG-Linode
-      - 🇨🇳 高雄Hinet
-      - 🇭🇰 香港HKT 8
-      - 🇨🇳 高雄Hinet 2
       - 🇸🇬 SG-Linode 2
-      - 🇨🇳 高雄Hinet 3
-      - Tokyo-Linode
-      - Tokyo-Linode 2
-      - 🇸🇬 SG-Linode 3
-      - 🇭🇰 香港HKT 9
-      - Tokyo-Linode 3
-      - Tokyo-NTT
-      - 🇭🇰 中转|香港C
-      - Mumbai-Linode
-      - Mumbai-Linode 2
-      - sydney-Linode
-      - 🇨🇳 高雄Hinet 4
-      - LAX-DediPath
+      - 🇭🇰 中转|香港B
+      - 🇭🇰 中转|香港A
       - LAX-DediPath 2
-      - GB
+      - Tokyo-Linode 3
+      - sydney-Linode
       - GB 2
-      - 🇨🇳 高雄Hinet 5
+      - 🇭🇰 香港HKT 7
+      - 🇭🇰 香港HKT 8
+      - 🇭🇰 香港HKT 9
+      - 🇨🇳 高雄Hinet 3
+      - 🇸🇬 SG-Linode 3
+      - 🇭🇰 香港1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台
+      - 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - LAX-DediPath
+      - Tokyo-Linode
+      - GB
       - 🇭🇰 香港HKT
-      - 🇭🇰 中转|香港A
-      - 🇭🇰 中转|香港B
       - 🇭🇰 香港HKT 2
       - 🇭🇰 香港HKT 3
+      - 🇨🇳 高雄Hinet
+      - 🇸🇬 SG-Linode
+      - Tokyo-Linode 2
+      - 🇨🇳 高雄Hinet 2
+      - Tokyo-NTT
       - 🇭🇰 香港HKT 4
       - 🇭🇰 香港HKT 5
       - 🇭🇰 香港HKT 6
-      - 🇭🇰 香港HKT 7
-      - 🇸🇬 SG-Linode
-      - 🇨🇳 高雄Hinet
-      - 🇭🇰 香港HKT 8
-      - 🇨🇳 高雄Hinet 2
       - 🇸🇬 SG-Linode 2
-      - 🇨🇳 高雄Hinet 3
-      - Tokyo-Linode
-      - Tokyo-Linode 2
-      - 🇸🇬 SG-Linode 3
-      - 🇭🇰 香港HKT 9
-      - Tokyo-Linode 3
-      - Tokyo-NTT
-      - 🇭🇰 中转|香港C
-      - Mumbai-Linode
-      - Mumbai-Linode 2
-      - sydney-Linode
-      - 🇨🇳 高雄Hinet 4
-      - LAX-DediPath
+      - 🇭🇰 中转|香港B
+      - 🇭🇰 中转|香港A
       - LAX-DediPath 2
-      - GB
+      - Tokyo-Linode 3
+      - sydney-Linode
       - GB 2
-      - 🇨🇳 高雄Hinet 5
+      - 🇭🇰 香港HKT 7
+      - 🇭🇰 香港HKT 8
+      - 🇭🇰 香港HKT 9
+      - 🇨🇳 高雄Hinet 3
+      - 🇸🇬 SG-Linode 3
+      - 🇭🇰 香港1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台
+      - 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - LAX-DediPath
+      - Tokyo-Linode
+      - GB
       - 🇭🇰 香港HKT
-      - 🇭🇰 中转|香港A
-      - 🇭🇰 中转|香港B
       - 🇭🇰 香港HKT 2
       - 🇭🇰 香港HKT 3
+      - 🇨🇳 高雄Hinet
+      - 🇸🇬 SG-Linode
+      - Tokyo-Linode 2
+      - 🇨🇳 高雄Hinet 2
+      - Tokyo-NTT
       - 🇭🇰 香港HKT 4
       - 🇭🇰 香港HKT 5
       - 🇭🇰 香港HKT 6
-      - 🇭🇰 香港HKT 7
-      - 🇸🇬 SG-Linode
-      - 🇨🇳 高雄Hinet
-      - 🇭🇰 香港HKT 8
-      - 🇨🇳 高雄Hinet 2
       - 🇸🇬 SG-Linode 2
-      - 🇨🇳 高雄Hinet 3
-      - Tokyo-Linode
-      - Tokyo-Linode 2
-      - 🇸🇬 SG-Linode 3
-      - 🇭🇰 香港HKT 9
-      - Tokyo-Linode 3
-      - Tokyo-NTT
-      - 🇭🇰 中转|香港C
-      - Mumbai-Linode
-      - Mumbai-Linode 2
-      - sydney-Linode
-      - 🇨🇳 高雄Hinet 4
-      - LAX-DediPath
+      - 🇭🇰 中转|香港B
+      - 🇭🇰 中转|香港A
       - LAX-DediPath 2
-      - GB
+      - Tokyo-Linode 3
+      - sydney-Linode
       - GB 2
-      - 🇨🇳 高雄Hinet 5
+      - 🇭🇰 香港HKT 7
+      - 🇭🇰 香港HKT 8
+      - 🇭🇰 香港HKT 9
+      - 🇨🇳 高雄Hinet 3
+      - 🇸🇬 SG-Linode 3
+      - 🇭🇰 香港1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台
+      - 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - LAX-DediPath
+      - Tokyo-Linode
+      - GB
       - 🇭🇰 香港HKT
-      - 🇭🇰 中转|香港A
-      - 🇭🇰 中转|香港B
       - 🇭🇰 香港HKT 2
       - 🇭🇰 香港HKT 3
+      - 🇨🇳 高雄Hinet
+      - 🇸🇬 SG-Linode
+      - Tokyo-Linode 2
+      - 🇨🇳 高雄Hinet 2
+      - Tokyo-NTT
       - 🇭🇰 香港HKT 4
       - 🇭🇰 香港HKT 5
       - 🇭🇰 香港HKT 6
-      - 🇭🇰 香港HKT 7
-      - 🇸🇬 SG-Linode
-      - 🇨🇳 高雄Hinet
-      - 🇭🇰 香港HKT 8
-      - 🇨🇳 高雄Hinet 2
       - 🇸🇬 SG-Linode 2
-      - 🇨🇳 高雄Hinet 3
-      - Tokyo-Linode
-      - Tokyo-Linode 2
-      - 🇸🇬 SG-Linode 3
-      - 🇭🇰 香港HKT 9
-      - Tokyo-Linode 3
-      - Tokyo-NTT
-      - 🇭🇰 中转|香港C
-      - Mumbai-Linode
-      - Mumbai-Linode 2
-      - sydney-Linode
-      - 🇨🇳 高雄Hinet 4
-      - LAX-DediPath
+      - 🇭🇰 中转|香港B
+      - 🇭🇰 中转|香港A
       - LAX-DediPath 2
-      - GB
+      - Tokyo-Linode 3
+      - sydney-Linode
       - GB 2
-      - 🇨🇳 高雄Hinet 5
+      - 🇭🇰 香港HKT 7
+      - 🇭🇰 香港HKT 8
+      - 🇭🇰 香港HKT 9
+      - 🇨🇳 高雄Hinet 3
+      - 🇸🇬 SG-Linode 3
+      - 🇭🇰 香港1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台
+      - 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -314,37 +306,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - LAX-DediPath
+      - Tokyo-Linode
+      - GB
       - 🇭🇰 香港HKT
-      - 🇭🇰 中转|香港A
-      - 🇭🇰 中转|香港B
       - 🇭🇰 香港HKT 2
       - 🇭🇰 香港HKT 3
+      - 🇨🇳 高雄Hinet
+      - 🇸🇬 SG-Linode
+      - Tokyo-Linode 2
+      - 🇨🇳 高雄Hinet 2
+      - Tokyo-NTT
       - 🇭🇰 香港HKT 4
       - 🇭🇰 香港HKT 5
       - 🇭🇰 香港HKT 6
-      - 🇭🇰 香港HKT 7
-      - 🇸🇬 SG-Linode
-      - 🇨🇳 高雄Hinet
-      - 🇭🇰 香港HKT 8
-      - 🇨🇳 高雄Hinet 2
       - 🇸🇬 SG-Linode 2
-      - 🇨🇳 高雄Hinet 3
-      - Tokyo-Linode
-      - Tokyo-Linode 2
-      - 🇸🇬 SG-Linode 3
-      - 🇭🇰 香港HKT 9
-      - Tokyo-Linode 3
-      - Tokyo-NTT
-      - 🇭🇰 中转|香港C
-      - Mumbai-Linode
-      - Mumbai-Linode 2
-      - sydney-Linode
-      - 🇨🇳 高雄Hinet 4
-      - LAX-DediPath
+      - 🇭🇰 中转|香港B
+      - 🇭🇰 中转|香港A
       - LAX-DediPath 2
-      - GB
+      - Tokyo-Linode 3
+      - sydney-Linode
       - GB 2
-      - 🇨🇳 高雄Hinet 5
+      - 🇭🇰 香港HKT 7
+      - 🇭🇰 香港HKT 8
+      - 🇭🇰 香港HKT 9
+      - 🇨🇳 高雄Hinet 3
+      - 🇸🇬 SG-Linode 3
+      - 🇭🇰 香港1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 台湾1000M丨x1x丨限速100M 负载5台
+      - 🇯🇵 日本A1000M丨x1x丨限速100M 负载5台
+      - 🇨🇳 新加披A1000M丨x1x丨限速100M 负载5台
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
