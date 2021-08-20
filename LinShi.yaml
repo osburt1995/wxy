@@ -6,14 +6,9 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇭🇰 HK_3570 |22.57Mb, server: kr-oracle.june628.ml, port: 40105, type: vmess, uuid: 130b7524-f6b5-4708-ac23-114803497e5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /adobe, ws-headers: {Host: kr-oracle.june628.ml}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK, server: 207.46.153.239, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 207.46.153.239}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb, server: hk3.uuv2.co.uk, port: 1016, type: vmess, uuid: 2751b1f3-54a5-447a-87ae-df1e88e2aaee, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /fuck_you_thief, ws-headers: {Host: hk3.uuv2.co.uk}}
-  - {name: Relay_ |12.37Mb, server: 52.175.79.113, port: 60023, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.79.113}}
   - {name: 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb, server: 103.56.60.37, port: 20925, type: vmess, uuid: b8583f26-9717-3f5a-91cf-b48a910344ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: 103.56.60.37}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589, server: 23.99.103.85, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.99.103.85}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb, server: kr05.zniuniu.xyz, port: 30563, type: vmess, uuid: 49fddc48-2cc1-38d1-af1e-9c5d9df8737c, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb, server: azhk.yinriver.top, port: 60015, type: vmess, uuid: 14b428e2-aff5-4636-9b4b-af11c8dcde0e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk.yinriver.top}}
-  - {name: Relay_ | 7.08Mb, server: relay.holiganfan.com, port: 38669, type: vmess, uuid: f9646d3a-d23c-4aa6-a50f-96ede336c3a9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: f932c3d98981b.download.microsoft.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -21,14 +16,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 HK_3570 |22.57Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb
-      - Relay_ |12.37Mb
       - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589
       - 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb
-      - Relay_ | 7.08Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -36,14 +26,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 HK_3570 |22.57Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb
-      - Relay_ |12.37Mb
       - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589
       - 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb
-      - Relay_ | 7.08Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -51,56 +36,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 HK_3570 |22.57Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb
-      - Relay_ |12.37Mb
       - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589
       - 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb
-      - Relay_ | 7.08Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇭🇰 HK_3570 |22.57Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb
-      - Relay_ |12.37Mb
       - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589
       - 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb
-      - Relay_ | 7.08Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇭🇰 HK_3570 |22.57Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb
-      - Relay_ |12.37Mb
       - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589
       - 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb
-      - Relay_ | 7.08Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇭🇰 HK_3570 |22.57Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb
-      - Relay_ |12.37Mb
       - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589
       - 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb
-      - Relay_ | 7.08Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -108,14 +73,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 HK_3570 |22.57Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb
-      - Relay_ |12.37Mb
       - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589
       - 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb
-      - Relay_ | 7.08Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,14 +99,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 HK_3570 |22.57Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3575 |18.33Mb
-      - Relay_ |12.37Mb
       - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_1650 |27.29Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_3589
       - 🇭🇰 Relay_🇭🇰HK-🇹🇷TR_3560 | 9.53Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇯🇵JP_3533 |12.37Mb
-      - Relay_ | 7.08Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
