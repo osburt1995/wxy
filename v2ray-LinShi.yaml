@@ -3,39 +3,27 @@ allow-lan: true
 mode: Rule
 log-level: info
 proxies:
-  - {name: Relay_🇭🇰HK-🇭🇰HK_3338 |10.57Mb, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: BF6AAA7F-AF54-8044-EA40-428D249CD536, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_3332 |28.67Mb, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 45669AFC-A72A-C955-69E8-4128EE9D609E, alterId: 0, cipher: auto, tls: false}
   - {name: Relay_🇭🇰HK-🇭🇰HK_3333 |17.60Mb, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 3197302C-C686-9E41-7ED8-C8317D6DBF28, alterId: 0, cipher: auto, tls: false}
   - {name: Relay_🇭🇰HK-🇭🇰HK_3336, server: az.zf01.ssru8.club, port: 58802, type: vmess, uuid: 75c14ec6-1842-4756-9137-8b71b8f0bd34, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: az.zf01.ssru8.club}}
   - {name: Relay_🇭🇰HK-🇭🇰HK_3337 |15.78Mb, server: az.zf01.ssru8.club, port: 58803, type: vmess, uuid: 75c14ec6-1842-4756-9137-8b71b8f0bd34, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: az.zf01.ssru8.club}}
-  - {name: Relay_🇹🇼TW-🇹🇼TW_6486 |32.83Mb, server: vtwonet-tw-a.qjnodeip.xyz, port: 10086, type: vmess, uuid: BF6AAA7F-AF54-8044-EA40-428D249CD536, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_ |28.40Mb, server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: BF6AAA7F-AF54-8044-EA40-428D249CD536, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_ |22.33Mb, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: A0380517-CE9F-DE4D-1B0A-6F2DD0A9FC39, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_3332 |28.67Mb, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 45669AFC-A72A-C955-69E8-4128EE9D609E, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 SELECT(@BN_CHANLL)
     type: select
     proxies:
       - ♻️ BESTPING(@BN_CHANLL)
-      - Relay_🇭🇰HK-🇭🇰HK_3338 |10.57Mb
+      - Relay_🇭🇰HK-🇭🇰HK_3332 |28.67Mb
       - Relay_🇭🇰HK-🇭🇰HK_3333 |17.60Mb
       - Relay_🇭🇰HK-🇭🇰HK_3336
       - Relay_🇭🇰HK-🇭🇰HK_3337 |15.78Mb
-      - Relay_🇹🇼TW-🇹🇼TW_6486 |32.83Mb
-      - Relay_ |28.40Mb
-      - Relay_ |22.33Mb
-      - Relay_🇭🇰HK-🇭🇰HK_3332 |28.67Mb
   - name: ♻️ BESTPING(@BN_CHANLL)
     type: url-test
     url: https://www.google.com
     interval: 300
     proxies:
-      - Relay_🇭🇰HK-🇭🇰HK_3338 |10.57Mb
+      - Relay_🇭🇰HK-🇭🇰HK_3332 |28.67Mb
       - Relay_🇭🇰HK-🇭🇰HK_3333 |17.60Mb
       - Relay_🇭🇰HK-🇭🇰HK_3336
       - Relay_🇭🇰HK-🇭🇰HK_3337 |15.78Mb
-      - Relay_🇹🇼TW-🇹🇼TW_6486 |32.83Mb
-      - Relay_ |28.40Mb
-      - Relay_ |22.33Mb
-      - Relay_🇭🇰HK-🇭🇰HK_3332 |28.67Mb
 rules:
  - MATCH,♻️ BESTPING(@BN_CHANLL),🔰 SELECT(@BN_CHANLL)
