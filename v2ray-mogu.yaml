@@ -5,269 +5,605 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 SG蘑菇-新加坡测试01, server: 183.232.149.252, port: 232, type: ss, cipher: aes-128-gcm, password: dxzROmKx}
-  - {name: 🇸🇬 SG蘑菇-新加坡测试02, server: 183.232.149.253, port: 232, type: ss, cipher: aes-128-gcm, password: dxzROmKx}
-  - {name: 🇸🇬 SG蘑菇-新加坡测试03, server: 183.232.149.252, port: 231, type: ss, cipher: aes-128-gcm, password: UVG9Ce6r}
-  - {name: 🇸🇬 SG蘑菇-新加坡测试04, server: 183.232.149.253, port: 231, type: ss, cipher: aes-128-gcm, password: UVG9Ce6r}
-  - {name: 🇰🇷 KR蘑菇-韩国01, server: 120.232.41.2, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
-  - {name: 🇰🇷 KR蘑菇-韩国02, server: 120.232.41.3, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
-  - {name: 🇰🇷 KR蘑菇-韩国03, server: 120.236.180.12, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
-  - {name: 🇰🇷 KR蘑菇-韩国04, server: 120.236.180.13, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
-  - {name: 🇰🇷 KR蘑菇-韩国05, server: 120.236.180.14, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
-  - {name: 🇰🇷 KR蘑菇-韩国06, server: 120.232.215.237, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
-  - {name: 🇨🇳 TW蘑菇-台湾01, server: 120.232.41.2, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
-  - {name: 🇨🇳 TW蘑菇-台湾02, server: 120.232.41.3, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
-  - {name: 🇨🇳 TW蘑菇-台湾03, server: 120.236.180.12, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
-  - {name: 🇨🇳 TW蘑菇-台湾04, server: 120.236.180.13, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
-  - {name: 🇨🇳 TW蘑菇-台湾05, server: 120.236.180.14, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
-  - {name: 🇨🇳 TW蘑菇-台湾06, server: 120.232.215.237, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
+  - {name: 🇯🇵 JP蘑菇-日本01-1, server: 120.232.41.2, port: 186, type: ss, cipher: aes-128-gcm, password: JD5zyWu8}
+  - {name: 🇺🇲 US蘑菇-美国03-1, server: 120.236.180.12, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
+  - {name: 🇺🇲 US蘑菇-美国06-1, server: 120.232.215.237, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
+  - {name: 🇸🇬 SG蘑菇-新加坡05-1, server: 120.236.180.14, port: 228, type: ss, cipher: aes-128-gcm, password: Te7w5zCB}
   - {name: 🇺🇲 US蘑菇-美国01-1, server: 120.232.41.2, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
-  - {name: 🇺🇲 US蘑菇-美国01-2, server: 120.232.41.3, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
-  - {name: 🇺🇲 US蘑菇-美国01-3, server: 120.236.180.12, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
-  - {name: 🇺🇲 US蘑菇-美国01-4, server: 120.236.180.13, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
-  - {name: 🇺🇲 US蘑菇-美国01-5, server: 120.236.180.14, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
-  - {name: 🇺🇲 US蘑菇-美国01-6, server: 120.232.215.237, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
-  - {name: 🇺🇲 US蘑菇-美国02-1, server: 120.232.41.2, port: 182, type: ss, cipher: aes-128-gcm, password: 4j2D9btY}
-  - {name: 🇺🇲 US蘑菇-美国02-2, server: 120.232.41.3, port: 182, type: ss, cipher: aes-128-gcm, password: 4j2D9btY}
-  - {name: 🇺🇲 US蘑菇-美国02-3, server: 120.236.180.12, port: 182, type: ss, cipher: aes-128-gcm, password: 4j2D9btY}
-  - {name: 🇺🇲 US蘑菇-美国02-4, server: 120.236.180.13, port: 182, type: ss, cipher: aes-128-gcm, password: 4j2D9btY}
-  - {name: 🇺🇲 US蘑菇-美国02-5, server: 120.236.180.14, port: 182, type: ss, cipher: aes-128-gcm, password: 4j2D9btY}
-  - {name: 🇺🇲 US蘑菇-美国02-6, server: 120.232.215.237, port: 182, type: ss, cipher: aes-128-gcm, password: 4j2D9btY}
+  - {name: 🇺🇲 US蘑菇-美国05-1, server: 120.236.180.14, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
+  - {name: 🇺🇲 US蘑菇-美国01-3, server: 120.232.41.2, port: 114, type: ss, cipher: aes-128-gcm, password: qkw0yiSb}
+  - {name: 🇨🇳 TW蘑菇-台湾06-1, server: 120.232.215.237, port: 344, type: ss, cipher: aes-128-gcm, password: ZusltiXg}
+  - {name: 🇰🇷 KR蘑菇-韩国01-2, server: 120.232.41.2, port: 107, type: ss, cipher: aes-128-gcm, password: eWGZkOrB}
+  - {name: 🇰🇷 KR蘑菇-韩国02-2, server: 120.232.41.3, port: 107, type: ss, cipher: aes-128-gcm, password: eWGZkOrB}
+  - {name: 🇰🇷 KR蘑菇-韩国05-2, server: 120.236.180.14, port: 107, type: ss, cipher: aes-128-gcm, password: eWGZkOrB}
+  - {name: 🇸🇬 SG蘑菇-新加坡测试01-1, server: 183.232.149.252, port: 232, type: ss, cipher: aes-128-gcm, password: dxzROmKx}
+  - {name: 🇻🇳 VN蘑菇-越南02-1, server: 120.232.41.3, port: 141, type: ss, cipher: aes-128-gcm, password: 439urijp}
+  - {name: 🇯🇵 JP蘑菇-日本02-1, server: 120.232.41.3, port: 186, type: ss, cipher: aes-128-gcm, password: JD5zyWu8}
+  - {name: 🇯🇵 JP蘑菇-日本05-1, server: 120.236.180.14, port: 186, type: ss, cipher: aes-128-gcm, password: JD5zyWu8}
+  - {name: 🇺🇲 US蘑菇-美国05-3, server: 120.236.180.14, port: 114, type: ss, cipher: aes-128-gcm, password: qkw0yiSb}
+  - {name: 🇺🇲 US蘑菇-美国02-3, server: 120.232.41.3, port: 114, type: ss, cipher: aes-128-gcm, password: qkw0yiSb}
+  - {name: 🇮🇳 ID蘑菇-印度05-1, server: 120.236.180.14, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
+  - {name: 🇮🇳 ID蘑菇-印度03-1, server: 120.236.180.12, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
+  - {name: 🇮🇳 ID蘑菇-印度04-1, server: 120.236.180.13, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
+  - {name: 🇰🇷 KR蘑菇-韩国06-2, server: 120.232.215.237, port: 107, type: ss, cipher: aes-128-gcm, password: eWGZkOrB}
+  - {name: 🇻🇳 VN蘑菇-越南04-1, server: 120.236.180.13, port: 141, type: ss, cipher: aes-128-gcm, password: 439urijp}
+  - {name: 🇻🇳 VN蘑菇-越南05-1, server: 120.236.180.14, port: 141, type: ss, cipher: aes-128-gcm, password: 439urijp}
+  - {name: 🇻🇳 VN蘑菇-越南03-1, server: 120.236.180.12, port: 141, type: ss, cipher: aes-128-gcm, password: 439urijp}
+  - {name: 🇸🇬 SG蘑菇-新加坡02-1, server: 120.232.41.3, port: 228, type: ss, cipher: aes-128-gcm, password: Te7w5zCB}
+  - {name: 🇸🇬 SG蘑菇-新加坡测试02-1, server: 183.232.149.253, port: 232, type: ss, cipher: aes-128-gcm, password: dxzROmKx}
+  - {name: 🇨🇳 TW蘑菇-台湾02-1, server: 120.232.41.3, port: 344, type: ss, cipher: aes-128-gcm, password: ZusltiXg}
+  - {name: 🇸🇬 SG蘑菇-新加坡测试02-2, server: 183.232.149.253, port: 231, type: ss, cipher: aes-128-gcm, password: UVG9Ce6r}
+  - {name: 🇨🇳 TW蘑菇-台湾04-1, server: 120.236.180.13, port: 344, type: ss, cipher: aes-128-gcm, password: ZusltiXg}
+  - {name: 🇮🇳 ID蘑菇-印度01-1, server: 120.232.41.2, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
+  - {name: 🇮🇳 ID蘑菇-印度02-1, server: 120.232.41.3, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
+  - {name: 🇯🇵 JP蘑菇-日本04-1, server: 120.236.180.13, port: 186, type: ss, cipher: aes-128-gcm, password: JD5zyWu8}
+  - {name: 🇨🇳 TW蘑菇-台湾01-1, server: 120.232.41.2, port: 344, type: ss, cipher: aes-128-gcm, password: ZusltiXg}
+  - {name: 🇺🇲 US蘑菇-美国04-1, server: 120.236.180.13, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
+  - {name: 🇸🇬 SG蘑菇-新加坡测试01-2, server: 183.232.149.252, port: 231, type: ss, cipher: aes-128-gcm, password: UVG9Ce6r}
+  - {name: 🇺🇲 US蘑菇-美国05-2, server: 120.236.180.14, port: 140, type: ss, cipher: aes-128-gcm, password: df94kjm}
+  - {name: 🇨🇳 TW蘑菇-台湾03-1, server: 120.236.180.12, port: 344, type: ss, cipher: aes-128-gcm, password: ZusltiXg}
+  - {name: 🇰🇷 KR蘑菇-韩国06-1, server: 120.232.215.237, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
+  - {name: 🇨🇳 TW蘑菇-台湾04-2, server: 120.236.180.13, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
+  - {name: 🇺🇲 US蘑菇-美国02-1, server: 120.232.41.3, port: 173, type: ss, cipher: aes-128-gcm, password: 7pSjkrjV}
+  - {name: 🇰🇷 KR蘑菇-韩国04-1, server: 120.236.180.13, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
+  - {name: 🇺🇲 US蘑菇-美国01-2, server: 120.232.41.2, port: 140, type: ss, cipher: aes-128-gcm, password: df94kjm}
+  - {name: 🇸🇬 SG蘑菇-新加坡03-1, server: 120.236.180.12, port: 228, type: ss, cipher: aes-128-gcm, password: Te7w5zCB}
+  - {name: 🇺🇲 US蘑菇-美国02-2, server: 120.232.41.3, port: 140, type: ss, cipher: aes-128-gcm, password: df94kjm}
+  - {name: 🇺🇲 US蘑菇-美国06-2, server: 120.232.215.237, port: 140, type: ss, cipher: aes-128-gcm, password: df94kjm}
+  - {name: 🇰🇷 KR蘑菇-韩国05-1, server: 120.236.180.14, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
+  - {name: 🇰🇷 KR蘑菇-韩国02-1, server: 120.232.41.3, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
+  - {name: 🇨🇳 TW蘑菇-台湾01-2, server: 120.232.41.2, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
+  - {name: 🇨🇳 TW蘑菇-台湾02-2, server: 120.232.41.3, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
+  - {name: 🇻🇳 VN蘑菇-VN越南01-1, server: 120.232.41.2, port: 141, type: ss, cipher: aes-128-gcm, password: 439urijp}
+  - {name: 🇸🇬 SG蘑菇-新加坡01-1, server: 120.232.41.2, port: 228, type: ss, cipher: aes-128-gcm, password: Te7w5zCB}
+  - {name: 🇨🇳 TW蘑菇-台湾03-2, server: 120.236.180.12, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
+  - {name: 🇺🇲 US蘑菇-美国03-3, server: 120.236.180.12, port: 114, type: ss, cipher: aes-128-gcm, password: qkw0yiSb}
+  - {name: 🇺🇲 US蘑菇-美国04-2, server: 120.236.180.13, port: 140, type: ss, cipher: aes-128-gcm, password: df94kjm}
+  - {name: 🇨🇳 TW蘑菇-台湾05-1, server: 120.236.180.14, port: 344, type: ss, cipher: aes-128-gcm, password: ZusltiXg}
+  - {name: 🇨🇳 TW蘑菇-台湾05-2, server: 120.236.180.14, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
+  - {name: 🇰🇷 KR蘑菇-韩国03-2, server: 120.236.180.12, port: 107, type: ss, cipher: aes-128-gcm, password: eWGZkOrB}
+  - {name: 🇸🇬 SG蘑菇-新加坡04-1, server: 120.236.180.13, port: 228, type: ss, cipher: aes-128-gcm, password: Te7w5zCB}
+  - {name: 🇰🇷 KR蘑菇-韩国04-2, server: 120.236.180.13, port: 107, type: ss, cipher: aes-128-gcm, password: eWGZkOrB}
+  - {name: 🇺🇲 US蘑菇-美国04-3, server: 120.236.180.13, port: 114, type: ss, cipher: aes-128-gcm, password: qkw0yiSb}
+  - {name: 🇰🇷 KR蘑菇-韩国03-1, server: 120.236.180.12, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
+  - {name: 🇯🇵 JP蘑菇-日本03-1, server: 120.236.180.12, port: 186, type: ss, cipher: aes-128-gcm, password: JD5zyWu8}
+  - {name: 🇺🇲 US蘑菇-美国03-2, server: 120.236.180.12, port: 140, type: ss, cipher: aes-128-gcm, password: df94kjm}
+  - {name: 🇨🇳 TW蘑菇-台湾06-2, server: 120.232.215.237, port: 144, type: ss, cipher: aes-128-gcm, password: rbGvbPDj}
+  - {name: 🇺🇲 US蘑菇-美国06-3, server: 120.232.215.237, port: 114, type: ss, cipher: aes-128-gcm, password: qkw0yiSb}
+  - {name: 🇮🇳 ID蘑菇-印度06-1, server: 120.232.215.237, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
+  - {name: 🇯🇵 JP蘑菇-日本06-1, server: 120.232.215.237, port: 186, type: ss, cipher: aes-128-gcm, password: JD5zyWu8}
+  - {name: 🇰🇷 KR蘑菇-韩国01-1, server: 120.232.41.2, port: 184, type: ss, cipher: aes-128-gcm, password: HfZ9WtI7}
+  - {name: 🇸🇬 SG蘑菇-新加坡06-1, server: 120.232.215.237, port: 228, type: ss, cipher: aes-128-gcm, password: Te7w5zCB}
+  - {name: 🇻🇳 VN蘑菇-VN越南06-1, server: 120.232.215.237, port: 141, type: ss, cipher: aes-128-gcm, password: 439urijp}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 SG蘑菇-新加坡测试01
-      - 🇸🇬 SG蘑菇-新加坡测试02
-      - 🇸🇬 SG蘑菇-新加坡测试03
-      - 🇸🇬 SG蘑菇-新加坡测试04
-      - 🇰🇷 KR蘑菇-韩国01
-      - 🇰🇷 KR蘑菇-韩国02
-      - 🇰🇷 KR蘑菇-韩国03
-      - 🇰🇷 KR蘑菇-韩国04
-      - 🇰🇷 KR蘑菇-韩国05
-      - 🇰🇷 KR蘑菇-韩国06
-      - 🇨🇳 TW蘑菇-台湾01
-      - 🇨🇳 TW蘑菇-台湾02
-      - 🇨🇳 TW蘑菇-台湾03
-      - 🇨🇳 TW蘑菇-台湾04
-      - 🇨🇳 TW蘑菇-台湾05
-      - 🇨🇳 TW蘑菇-台湾06
+      - 🇯🇵 JP蘑菇-日本01-1
+      - 🇺🇲 US蘑菇-美国03-1
+      - 🇺🇲 US蘑菇-美国06-1
+      - 🇸🇬 SG蘑菇-新加坡05-1
       - 🇺🇲 US蘑菇-美国01-1
-      - 🇺🇲 US蘑菇-美国01-2
+      - 🇺🇲 US蘑菇-美国05-1
       - 🇺🇲 US蘑菇-美国01-3
-      - 🇺🇲 US蘑菇-美国01-4
-      - 🇺🇲 US蘑菇-美国01-5
-      - 🇺🇲 US蘑菇-美国01-6
-      - 🇺🇲 US蘑菇-美国02-1
-      - 🇺🇲 US蘑菇-美国02-2
+      - 🇨🇳 TW蘑菇-台湾06-1
+      - 🇰🇷 KR蘑菇-韩国01-2
+      - 🇰🇷 KR蘑菇-韩国02-2
+      - 🇰🇷 KR蘑菇-韩国05-2
+      - 🇸🇬 SG蘑菇-新加坡测试01-1
+      - 🇻🇳 VN蘑菇-越南02-1
+      - 🇯🇵 JP蘑菇-日本02-1
+      - 🇯🇵 JP蘑菇-日本05-1
+      - 🇺🇲 US蘑菇-美国05-3
       - 🇺🇲 US蘑菇-美国02-3
-      - 🇺🇲 US蘑菇-美国02-4
-      - 🇺🇲 US蘑菇-美国02-5
-      - 🇺🇲 US蘑菇-美国02-6
+      - 🇮🇳 ID蘑菇-印度05-1
+      - 🇮🇳 ID蘑菇-印度03-1
+      - 🇮🇳 ID蘑菇-印度04-1
+      - 🇰🇷 KR蘑菇-韩国06-2
+      - 🇻🇳 VN蘑菇-越南04-1
+      - 🇻🇳 VN蘑菇-越南05-1
+      - 🇻🇳 VN蘑菇-越南03-1
+      - 🇸🇬 SG蘑菇-新加坡02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-1
+      - 🇨🇳 TW蘑菇-台湾02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-2
+      - 🇨🇳 TW蘑菇-台湾04-1
+      - 🇮🇳 ID蘑菇-印度01-1
+      - 🇮🇳 ID蘑菇-印度02-1
+      - 🇯🇵 JP蘑菇-日本04-1
+      - 🇨🇳 TW蘑菇-台湾01-1
+      - 🇺🇲 US蘑菇-美国04-1
+      - 🇸🇬 SG蘑菇-新加坡测试01-2
+      - 🇺🇲 US蘑菇-美国05-2
+      - 🇨🇳 TW蘑菇-台湾03-1
+      - 🇰🇷 KR蘑菇-韩国06-1
+      - 🇨🇳 TW蘑菇-台湾04-2
+      - 🇺🇲 US蘑菇-美国02-1
+      - 🇰🇷 KR蘑菇-韩国04-1
+      - 🇺🇲 US蘑菇-美国01-2
+      - 🇸🇬 SG蘑菇-新加坡03-1
+      - 🇺🇲 US蘑菇-美国02-2
+      - 🇺🇲 US蘑菇-美国06-2
+      - 🇰🇷 KR蘑菇-韩国05-1
+      - 🇰🇷 KR蘑菇-韩国02-1
+      - 🇨🇳 TW蘑菇-台湾01-2
+      - 🇨🇳 TW蘑菇-台湾02-2
+      - 🇻🇳 VN蘑菇-VN越南01-1
+      - 🇸🇬 SG蘑菇-新加坡01-1
+      - 🇨🇳 TW蘑菇-台湾03-2
+      - 🇺🇲 US蘑菇-美国03-3
+      - 🇺🇲 US蘑菇-美国04-2
+      - 🇨🇳 TW蘑菇-台湾05-1
+      - 🇨🇳 TW蘑菇-台湾05-2
+      - 🇰🇷 KR蘑菇-韩国03-2
+      - 🇸🇬 SG蘑菇-新加坡04-1
+      - 🇰🇷 KR蘑菇-韩国04-2
+      - 🇺🇲 US蘑菇-美国04-3
+      - 🇰🇷 KR蘑菇-韩国03-1
+      - 🇯🇵 JP蘑菇-日本03-1
+      - 🇺🇲 US蘑菇-美国03-2
+      - 🇨🇳 TW蘑菇-台湾06-2
+      - 🇺🇲 US蘑菇-美国06-3
+      - 🇮🇳 ID蘑菇-印度06-1
+      - 🇯🇵 JP蘑菇-日本06-1
+      - 🇰🇷 KR蘑菇-韩国01-1
+      - 🇸🇬 SG蘑菇-新加坡06-1
+      - 🇻🇳 VN蘑菇-VN越南06-1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 SG蘑菇-新加坡测试01
-      - 🇸🇬 SG蘑菇-新加坡测试02
-      - 🇸🇬 SG蘑菇-新加坡测试03
-      - 🇸🇬 SG蘑菇-新加坡测试04
-      - 🇰🇷 KR蘑菇-韩国01
-      - 🇰🇷 KR蘑菇-韩国02
-      - 🇰🇷 KR蘑菇-韩国03
-      - 🇰🇷 KR蘑菇-韩国04
-      - 🇰🇷 KR蘑菇-韩国05
-      - 🇰🇷 KR蘑菇-韩国06
-      - 🇨🇳 TW蘑菇-台湾01
-      - 🇨🇳 TW蘑菇-台湾02
-      - 🇨🇳 TW蘑菇-台湾03
-      - 🇨🇳 TW蘑菇-台湾04
-      - 🇨🇳 TW蘑菇-台湾05
-      - 🇨🇳 TW蘑菇-台湾06
+      - 🇯🇵 JP蘑菇-日本01-1
+      - 🇺🇲 US蘑菇-美国03-1
+      - 🇺🇲 US蘑菇-美国06-1
+      - 🇸🇬 SG蘑菇-新加坡05-1
       - 🇺🇲 US蘑菇-美国01-1
-      - 🇺🇲 US蘑菇-美国01-2
+      - 🇺🇲 US蘑菇-美国05-1
       - 🇺🇲 US蘑菇-美国01-3
-      - 🇺🇲 US蘑菇-美国01-4
-      - 🇺🇲 US蘑菇-美国01-5
-      - 🇺🇲 US蘑菇-美国01-6
-      - 🇺🇲 US蘑菇-美国02-1
-      - 🇺🇲 US蘑菇-美国02-2
+      - 🇨🇳 TW蘑菇-台湾06-1
+      - 🇰🇷 KR蘑菇-韩国01-2
+      - 🇰🇷 KR蘑菇-韩国02-2
+      - 🇰🇷 KR蘑菇-韩国05-2
+      - 🇸🇬 SG蘑菇-新加坡测试01-1
+      - 🇻🇳 VN蘑菇-越南02-1
+      - 🇯🇵 JP蘑菇-日本02-1
+      - 🇯🇵 JP蘑菇-日本05-1
+      - 🇺🇲 US蘑菇-美国05-3
       - 🇺🇲 US蘑菇-美国02-3
-      - 🇺🇲 US蘑菇-美国02-4
-      - 🇺🇲 US蘑菇-美国02-5
-      - 🇺🇲 US蘑菇-美国02-6
+      - 🇮🇳 ID蘑菇-印度05-1
+      - 🇮🇳 ID蘑菇-印度03-1
+      - 🇮🇳 ID蘑菇-印度04-1
+      - 🇰🇷 KR蘑菇-韩国06-2
+      - 🇻🇳 VN蘑菇-越南04-1
+      - 🇻🇳 VN蘑菇-越南05-1
+      - 🇻🇳 VN蘑菇-越南03-1
+      - 🇸🇬 SG蘑菇-新加坡02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-1
+      - 🇨🇳 TW蘑菇-台湾02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-2
+      - 🇨🇳 TW蘑菇-台湾04-1
+      - 🇮🇳 ID蘑菇-印度01-1
+      - 🇮🇳 ID蘑菇-印度02-1
+      - 🇯🇵 JP蘑菇-日本04-1
+      - 🇨🇳 TW蘑菇-台湾01-1
+      - 🇺🇲 US蘑菇-美国04-1
+      - 🇸🇬 SG蘑菇-新加坡测试01-2
+      - 🇺🇲 US蘑菇-美国05-2
+      - 🇨🇳 TW蘑菇-台湾03-1
+      - 🇰🇷 KR蘑菇-韩国06-1
+      - 🇨🇳 TW蘑菇-台湾04-2
+      - 🇺🇲 US蘑菇-美国02-1
+      - 🇰🇷 KR蘑菇-韩国04-1
+      - 🇺🇲 US蘑菇-美国01-2
+      - 🇸🇬 SG蘑菇-新加坡03-1
+      - 🇺🇲 US蘑菇-美国02-2
+      - 🇺🇲 US蘑菇-美国06-2
+      - 🇰🇷 KR蘑菇-韩国05-1
+      - 🇰🇷 KR蘑菇-韩国02-1
+      - 🇨🇳 TW蘑菇-台湾01-2
+      - 🇨🇳 TW蘑菇-台湾02-2
+      - 🇻🇳 VN蘑菇-VN越南01-1
+      - 🇸🇬 SG蘑菇-新加坡01-1
+      - 🇨🇳 TW蘑菇-台湾03-2
+      - 🇺🇲 US蘑菇-美国03-3
+      - 🇺🇲 US蘑菇-美国04-2
+      - 🇨🇳 TW蘑菇-台湾05-1
+      - 🇨🇳 TW蘑菇-台湾05-2
+      - 🇰🇷 KR蘑菇-韩国03-2
+      - 🇸🇬 SG蘑菇-新加坡04-1
+      - 🇰🇷 KR蘑菇-韩国04-2
+      - 🇺🇲 US蘑菇-美国04-3
+      - 🇰🇷 KR蘑菇-韩国03-1
+      - 🇯🇵 JP蘑菇-日本03-1
+      - 🇺🇲 US蘑菇-美国03-2
+      - 🇨🇳 TW蘑菇-台湾06-2
+      - 🇺🇲 US蘑菇-美国06-3
+      - 🇮🇳 ID蘑菇-印度06-1
+      - 🇯🇵 JP蘑菇-日本06-1
+      - 🇰🇷 KR蘑菇-韩国01-1
+      - 🇸🇬 SG蘑菇-新加坡06-1
+      - 🇻🇳 VN蘑菇-VN越南06-1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 SG蘑菇-新加坡测试01
-      - 🇸🇬 SG蘑菇-新加坡测试02
-      - 🇸🇬 SG蘑菇-新加坡测试03
-      - 🇸🇬 SG蘑菇-新加坡测试04
-      - 🇰🇷 KR蘑菇-韩国01
-      - 🇰🇷 KR蘑菇-韩国02
-      - 🇰🇷 KR蘑菇-韩国03
-      - 🇰🇷 KR蘑菇-韩国04
-      - 🇰🇷 KR蘑菇-韩国05
-      - 🇰🇷 KR蘑菇-韩国06
-      - 🇨🇳 TW蘑菇-台湾01
-      - 🇨🇳 TW蘑菇-台湾02
-      - 🇨🇳 TW蘑菇-台湾03
-      - 🇨🇳 TW蘑菇-台湾04
-      - 🇨🇳 TW蘑菇-台湾05
-      - 🇨🇳 TW蘑菇-台湾06
+      - 🇯🇵 JP蘑菇-日本01-1
+      - 🇺🇲 US蘑菇-美国03-1
+      - 🇺🇲 US蘑菇-美国06-1
+      - 🇸🇬 SG蘑菇-新加坡05-1
       - 🇺🇲 US蘑菇-美国01-1
-      - 🇺🇲 US蘑菇-美国01-2
+      - 🇺🇲 US蘑菇-美国05-1
       - 🇺🇲 US蘑菇-美国01-3
-      - 🇺🇲 US蘑菇-美国01-4
-      - 🇺🇲 US蘑菇-美国01-5
-      - 🇺🇲 US蘑菇-美国01-6
-      - 🇺🇲 US蘑菇-美国02-1
-      - 🇺🇲 US蘑菇-美国02-2
+      - 🇨🇳 TW蘑菇-台湾06-1
+      - 🇰🇷 KR蘑菇-韩国01-2
+      - 🇰🇷 KR蘑菇-韩国02-2
+      - 🇰🇷 KR蘑菇-韩国05-2
+      - 🇸🇬 SG蘑菇-新加坡测试01-1
+      - 🇻🇳 VN蘑菇-越南02-1
+      - 🇯🇵 JP蘑菇-日本02-1
+      - 🇯🇵 JP蘑菇-日本05-1
+      - 🇺🇲 US蘑菇-美国05-3
       - 🇺🇲 US蘑菇-美国02-3
-      - 🇺🇲 US蘑菇-美国02-4
-      - 🇺🇲 US蘑菇-美国02-5
-      - 🇺🇲 US蘑菇-美国02-6
+      - 🇮🇳 ID蘑菇-印度05-1
+      - 🇮🇳 ID蘑菇-印度03-1
+      - 🇮🇳 ID蘑菇-印度04-1
+      - 🇰🇷 KR蘑菇-韩国06-2
+      - 🇻🇳 VN蘑菇-越南04-1
+      - 🇻🇳 VN蘑菇-越南05-1
+      - 🇻🇳 VN蘑菇-越南03-1
+      - 🇸🇬 SG蘑菇-新加坡02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-1
+      - 🇨🇳 TW蘑菇-台湾02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-2
+      - 🇨🇳 TW蘑菇-台湾04-1
+      - 🇮🇳 ID蘑菇-印度01-1
+      - 🇮🇳 ID蘑菇-印度02-1
+      - 🇯🇵 JP蘑菇-日本04-1
+      - 🇨🇳 TW蘑菇-台湾01-1
+      - 🇺🇲 US蘑菇-美国04-1
+      - 🇸🇬 SG蘑菇-新加坡测试01-2
+      - 🇺🇲 US蘑菇-美国05-2
+      - 🇨🇳 TW蘑菇-台湾03-1
+      - 🇰🇷 KR蘑菇-韩国06-1
+      - 🇨🇳 TW蘑菇-台湾04-2
+      - 🇺🇲 US蘑菇-美国02-1
+      - 🇰🇷 KR蘑菇-韩国04-1
+      - 🇺🇲 US蘑菇-美国01-2
+      - 🇸🇬 SG蘑菇-新加坡03-1
+      - 🇺🇲 US蘑菇-美国02-2
+      - 🇺🇲 US蘑菇-美国06-2
+      - 🇰🇷 KR蘑菇-韩国05-1
+      - 🇰🇷 KR蘑菇-韩国02-1
+      - 🇨🇳 TW蘑菇-台湾01-2
+      - 🇨🇳 TW蘑菇-台湾02-2
+      - 🇻🇳 VN蘑菇-VN越南01-1
+      - 🇸🇬 SG蘑菇-新加坡01-1
+      - 🇨🇳 TW蘑菇-台湾03-2
+      - 🇺🇲 US蘑菇-美国03-3
+      - 🇺🇲 US蘑菇-美国04-2
+      - 🇨🇳 TW蘑菇-台湾05-1
+      - 🇨🇳 TW蘑菇-台湾05-2
+      - 🇰🇷 KR蘑菇-韩国03-2
+      - 🇸🇬 SG蘑菇-新加坡04-1
+      - 🇰🇷 KR蘑菇-韩国04-2
+      - 🇺🇲 US蘑菇-美国04-3
+      - 🇰🇷 KR蘑菇-韩国03-1
+      - 🇯🇵 JP蘑菇-日本03-1
+      - 🇺🇲 US蘑菇-美国03-2
+      - 🇨🇳 TW蘑菇-台湾06-2
+      - 🇺🇲 US蘑菇-美国06-3
+      - 🇮🇳 ID蘑菇-印度06-1
+      - 🇯🇵 JP蘑菇-日本06-1
+      - 🇰🇷 KR蘑菇-韩国01-1
+      - 🇸🇬 SG蘑菇-新加坡06-1
+      - 🇻🇳 VN蘑菇-VN越南06-1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 SG蘑菇-新加坡测试01
-      - 🇸🇬 SG蘑菇-新加坡测试02
-      - 🇸🇬 SG蘑菇-新加坡测试03
-      - 🇸🇬 SG蘑菇-新加坡测试04
-      - 🇰🇷 KR蘑菇-韩国01
-      - 🇰🇷 KR蘑菇-韩国02
-      - 🇰🇷 KR蘑菇-韩国03
-      - 🇰🇷 KR蘑菇-韩国04
-      - 🇰🇷 KR蘑菇-韩国05
-      - 🇰🇷 KR蘑菇-韩国06
-      - 🇨🇳 TW蘑菇-台湾01
-      - 🇨🇳 TW蘑菇-台湾02
-      - 🇨🇳 TW蘑菇-台湾03
-      - 🇨🇳 TW蘑菇-台湾04
-      - 🇨🇳 TW蘑菇-台湾05
-      - 🇨🇳 TW蘑菇-台湾06
+      - 🇯🇵 JP蘑菇-日本01-1
+      - 🇺🇲 US蘑菇-美国03-1
+      - 🇺🇲 US蘑菇-美国06-1
+      - 🇸🇬 SG蘑菇-新加坡05-1
       - 🇺🇲 US蘑菇-美国01-1
-      - 🇺🇲 US蘑菇-美国01-2
+      - 🇺🇲 US蘑菇-美国05-1
       - 🇺🇲 US蘑菇-美国01-3
-      - 🇺🇲 US蘑菇-美国01-4
-      - 🇺🇲 US蘑菇-美国01-5
-      - 🇺🇲 US蘑菇-美国01-6
-      - 🇺🇲 US蘑菇-美国02-1
-      - 🇺🇲 US蘑菇-美国02-2
+      - 🇨🇳 TW蘑菇-台湾06-1
+      - 🇰🇷 KR蘑菇-韩国01-2
+      - 🇰🇷 KR蘑菇-韩国02-2
+      - 🇰🇷 KR蘑菇-韩国05-2
+      - 🇸🇬 SG蘑菇-新加坡测试01-1
+      - 🇻🇳 VN蘑菇-越南02-1
+      - 🇯🇵 JP蘑菇-日本02-1
+      - 🇯🇵 JP蘑菇-日本05-1
+      - 🇺🇲 US蘑菇-美国05-3
       - 🇺🇲 US蘑菇-美国02-3
-      - 🇺🇲 US蘑菇-美国02-4
-      - 🇺🇲 US蘑菇-美国02-5
-      - 🇺🇲 US蘑菇-美国02-6
+      - 🇮🇳 ID蘑菇-印度05-1
+      - 🇮🇳 ID蘑菇-印度03-1
+      - 🇮🇳 ID蘑菇-印度04-1
+      - 🇰🇷 KR蘑菇-韩国06-2
+      - 🇻🇳 VN蘑菇-越南04-1
+      - 🇻🇳 VN蘑菇-越南05-1
+      - 🇻🇳 VN蘑菇-越南03-1
+      - 🇸🇬 SG蘑菇-新加坡02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-1
+      - 🇨🇳 TW蘑菇-台湾02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-2
+      - 🇨🇳 TW蘑菇-台湾04-1
+      - 🇮🇳 ID蘑菇-印度01-1
+      - 🇮🇳 ID蘑菇-印度02-1
+      - 🇯🇵 JP蘑菇-日本04-1
+      - 🇨🇳 TW蘑菇-台湾01-1
+      - 🇺🇲 US蘑菇-美国04-1
+      - 🇸🇬 SG蘑菇-新加坡测试01-2
+      - 🇺🇲 US蘑菇-美国05-2
+      - 🇨🇳 TW蘑菇-台湾03-1
+      - 🇰🇷 KR蘑菇-韩国06-1
+      - 🇨🇳 TW蘑菇-台湾04-2
+      - 🇺🇲 US蘑菇-美国02-1
+      - 🇰🇷 KR蘑菇-韩国04-1
+      - 🇺🇲 US蘑菇-美国01-2
+      - 🇸🇬 SG蘑菇-新加坡03-1
+      - 🇺🇲 US蘑菇-美国02-2
+      - 🇺🇲 US蘑菇-美国06-2
+      - 🇰🇷 KR蘑菇-韩国05-1
+      - 🇰🇷 KR蘑菇-韩国02-1
+      - 🇨🇳 TW蘑菇-台湾01-2
+      - 🇨🇳 TW蘑菇-台湾02-2
+      - 🇻🇳 VN蘑菇-VN越南01-1
+      - 🇸🇬 SG蘑菇-新加坡01-1
+      - 🇨🇳 TW蘑菇-台湾03-2
+      - 🇺🇲 US蘑菇-美国03-3
+      - 🇺🇲 US蘑菇-美国04-2
+      - 🇨🇳 TW蘑菇-台湾05-1
+      - 🇨🇳 TW蘑菇-台湾05-2
+      - 🇰🇷 KR蘑菇-韩国03-2
+      - 🇸🇬 SG蘑菇-新加坡04-1
+      - 🇰🇷 KR蘑菇-韩国04-2
+      - 🇺🇲 US蘑菇-美国04-3
+      - 🇰🇷 KR蘑菇-韩国03-1
+      - 🇯🇵 JP蘑菇-日本03-1
+      - 🇺🇲 US蘑菇-美国03-2
+      - 🇨🇳 TW蘑菇-台湾06-2
+      - 🇺🇲 US蘑菇-美国06-3
+      - 🇮🇳 ID蘑菇-印度06-1
+      - 🇯🇵 JP蘑菇-日本06-1
+      - 🇰🇷 KR蘑菇-韩国01-1
+      - 🇸🇬 SG蘑菇-新加坡06-1
+      - 🇻🇳 VN蘑菇-VN越南06-1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 SG蘑菇-新加坡测试01
-      - 🇸🇬 SG蘑菇-新加坡测试02
-      - 🇸🇬 SG蘑菇-新加坡测试03
-      - 🇸🇬 SG蘑菇-新加坡测试04
-      - 🇰🇷 KR蘑菇-韩国01
-      - 🇰🇷 KR蘑菇-韩国02
-      - 🇰🇷 KR蘑菇-韩国03
-      - 🇰🇷 KR蘑菇-韩国04
-      - 🇰🇷 KR蘑菇-韩国05
-      - 🇰🇷 KR蘑菇-韩国06
-      - 🇨🇳 TW蘑菇-台湾01
-      - 🇨🇳 TW蘑菇-台湾02
-      - 🇨🇳 TW蘑菇-台湾03
-      - 🇨🇳 TW蘑菇-台湾04
-      - 🇨🇳 TW蘑菇-台湾05
-      - 🇨🇳 TW蘑菇-台湾06
+      - 🇯🇵 JP蘑菇-日本01-1
+      - 🇺🇲 US蘑菇-美国03-1
+      - 🇺🇲 US蘑菇-美国06-1
+      - 🇸🇬 SG蘑菇-新加坡05-1
       - 🇺🇲 US蘑菇-美国01-1
-      - 🇺🇲 US蘑菇-美国01-2
+      - 🇺🇲 US蘑菇-美国05-1
       - 🇺🇲 US蘑菇-美国01-3
-      - 🇺🇲 US蘑菇-美国01-4
-      - 🇺🇲 US蘑菇-美国01-5
-      - 🇺🇲 US蘑菇-美国01-6
-      - 🇺🇲 US蘑菇-美国02-1
-      - 🇺🇲 US蘑菇-美国02-2
+      - 🇨🇳 TW蘑菇-台湾06-1
+      - 🇰🇷 KR蘑菇-韩国01-2
+      - 🇰🇷 KR蘑菇-韩国02-2
+      - 🇰🇷 KR蘑菇-韩国05-2
+      - 🇸🇬 SG蘑菇-新加坡测试01-1
+      - 🇻🇳 VN蘑菇-越南02-1
+      - 🇯🇵 JP蘑菇-日本02-1
+      - 🇯🇵 JP蘑菇-日本05-1
+      - 🇺🇲 US蘑菇-美国05-3
       - 🇺🇲 US蘑菇-美国02-3
-      - 🇺🇲 US蘑菇-美国02-4
-      - 🇺🇲 US蘑菇-美国02-5
-      - 🇺🇲 US蘑菇-美国02-6
+      - 🇮🇳 ID蘑菇-印度05-1
+      - 🇮🇳 ID蘑菇-印度03-1
+      - 🇮🇳 ID蘑菇-印度04-1
+      - 🇰🇷 KR蘑菇-韩国06-2
+      - 🇻🇳 VN蘑菇-越南04-1
+      - 🇻🇳 VN蘑菇-越南05-1
+      - 🇻🇳 VN蘑菇-越南03-1
+      - 🇸🇬 SG蘑菇-新加坡02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-1
+      - 🇨🇳 TW蘑菇-台湾02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-2
+      - 🇨🇳 TW蘑菇-台湾04-1
+      - 🇮🇳 ID蘑菇-印度01-1
+      - 🇮🇳 ID蘑菇-印度02-1
+      - 🇯🇵 JP蘑菇-日本04-1
+      - 🇨🇳 TW蘑菇-台湾01-1
+      - 🇺🇲 US蘑菇-美国04-1
+      - 🇸🇬 SG蘑菇-新加坡测试01-2
+      - 🇺🇲 US蘑菇-美国05-2
+      - 🇨🇳 TW蘑菇-台湾03-1
+      - 🇰🇷 KR蘑菇-韩国06-1
+      - 🇨🇳 TW蘑菇-台湾04-2
+      - 🇺🇲 US蘑菇-美国02-1
+      - 🇰🇷 KR蘑菇-韩国04-1
+      - 🇺🇲 US蘑菇-美国01-2
+      - 🇸🇬 SG蘑菇-新加坡03-1
+      - 🇺🇲 US蘑菇-美国02-2
+      - 🇺🇲 US蘑菇-美国06-2
+      - 🇰🇷 KR蘑菇-韩国05-1
+      - 🇰🇷 KR蘑菇-韩国02-1
+      - 🇨🇳 TW蘑菇-台湾01-2
+      - 🇨🇳 TW蘑菇-台湾02-2
+      - 🇻🇳 VN蘑菇-VN越南01-1
+      - 🇸🇬 SG蘑菇-新加坡01-1
+      - 🇨🇳 TW蘑菇-台湾03-2
+      - 🇺🇲 US蘑菇-美国03-3
+      - 🇺🇲 US蘑菇-美国04-2
+      - 🇨🇳 TW蘑菇-台湾05-1
+      - 🇨🇳 TW蘑菇-台湾05-2
+      - 🇰🇷 KR蘑菇-韩国03-2
+      - 🇸🇬 SG蘑菇-新加坡04-1
+      - 🇰🇷 KR蘑菇-韩国04-2
+      - 🇺🇲 US蘑菇-美国04-3
+      - 🇰🇷 KR蘑菇-韩国03-1
+      - 🇯🇵 JP蘑菇-日本03-1
+      - 🇺🇲 US蘑菇-美国03-2
+      - 🇨🇳 TW蘑菇-台湾06-2
+      - 🇺🇲 US蘑菇-美国06-3
+      - 🇮🇳 ID蘑菇-印度06-1
+      - 🇯🇵 JP蘑菇-日本06-1
+      - 🇰🇷 KR蘑菇-韩国01-1
+      - 🇸🇬 SG蘑菇-新加坡06-1
+      - 🇻🇳 VN蘑菇-VN越南06-1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 SG蘑菇-新加坡测试01
-      - 🇸🇬 SG蘑菇-新加坡测试02
-      - 🇸🇬 SG蘑菇-新加坡测试03
-      - 🇸🇬 SG蘑菇-新加坡测试04
-      - 🇰🇷 KR蘑菇-韩国01
-      - 🇰🇷 KR蘑菇-韩国02
-      - 🇰🇷 KR蘑菇-韩国03
-      - 🇰🇷 KR蘑菇-韩国04
-      - 🇰🇷 KR蘑菇-韩国05
-      - 🇰🇷 KR蘑菇-韩国06
-      - 🇨🇳 TW蘑菇-台湾01
-      - 🇨🇳 TW蘑菇-台湾02
-      - 🇨🇳 TW蘑菇-台湾03
-      - 🇨🇳 TW蘑菇-台湾04
-      - 🇨🇳 TW蘑菇-台湾05
-      - 🇨🇳 TW蘑菇-台湾06
+      - 🇯🇵 JP蘑菇-日本01-1
+      - 🇺🇲 US蘑菇-美国03-1
+      - 🇺🇲 US蘑菇-美国06-1
+      - 🇸🇬 SG蘑菇-新加坡05-1
       - 🇺🇲 US蘑菇-美国01-1
-      - 🇺🇲 US蘑菇-美国01-2
+      - 🇺🇲 US蘑菇-美国05-1
       - 🇺🇲 US蘑菇-美国01-3
-      - 🇺🇲 US蘑菇-美国01-4
-      - 🇺🇲 US蘑菇-美国01-5
-      - 🇺🇲 US蘑菇-美国01-6
-      - 🇺🇲 US蘑菇-美国02-1
-      - 🇺🇲 US蘑菇-美国02-2
+      - 🇨🇳 TW蘑菇-台湾06-1
+      - 🇰🇷 KR蘑菇-韩国01-2
+      - 🇰🇷 KR蘑菇-韩国02-2
+      - 🇰🇷 KR蘑菇-韩国05-2
+      - 🇸🇬 SG蘑菇-新加坡测试01-1
+      - 🇻🇳 VN蘑菇-越南02-1
+      - 🇯🇵 JP蘑菇-日本02-1
+      - 🇯🇵 JP蘑菇-日本05-1
+      - 🇺🇲 US蘑菇-美国05-3
       - 🇺🇲 US蘑菇-美国02-3
-      - 🇺🇲 US蘑菇-美国02-4
-      - 🇺🇲 US蘑菇-美国02-5
-      - 🇺🇲 US蘑菇-美国02-6
+      - 🇮🇳 ID蘑菇-印度05-1
+      - 🇮🇳 ID蘑菇-印度03-1
+      - 🇮🇳 ID蘑菇-印度04-1
+      - 🇰🇷 KR蘑菇-韩国06-2
+      - 🇻🇳 VN蘑菇-越南04-1
+      - 🇻🇳 VN蘑菇-越南05-1
+      - 🇻🇳 VN蘑菇-越南03-1
+      - 🇸🇬 SG蘑菇-新加坡02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-1
+      - 🇨🇳 TW蘑菇-台湾02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-2
+      - 🇨🇳 TW蘑菇-台湾04-1
+      - 🇮🇳 ID蘑菇-印度01-1
+      - 🇮🇳 ID蘑菇-印度02-1
+      - 🇯🇵 JP蘑菇-日本04-1
+      - 🇨🇳 TW蘑菇-台湾01-1
+      - 🇺🇲 US蘑菇-美国04-1
+      - 🇸🇬 SG蘑菇-新加坡测试01-2
+      - 🇺🇲 US蘑菇-美国05-2
+      - 🇨🇳 TW蘑菇-台湾03-1
+      - 🇰🇷 KR蘑菇-韩国06-1
+      - 🇨🇳 TW蘑菇-台湾04-2
+      - 🇺🇲 US蘑菇-美国02-1
+      - 🇰🇷 KR蘑菇-韩国04-1
+      - 🇺🇲 US蘑菇-美国01-2
+      - 🇸🇬 SG蘑菇-新加坡03-1
+      - 🇺🇲 US蘑菇-美国02-2
+      - 🇺🇲 US蘑菇-美国06-2
+      - 🇰🇷 KR蘑菇-韩国05-1
+      - 🇰🇷 KR蘑菇-韩国02-1
+      - 🇨🇳 TW蘑菇-台湾01-2
+      - 🇨🇳 TW蘑菇-台湾02-2
+      - 🇻🇳 VN蘑菇-VN越南01-1
+      - 🇸🇬 SG蘑菇-新加坡01-1
+      - 🇨🇳 TW蘑菇-台湾03-2
+      - 🇺🇲 US蘑菇-美国03-3
+      - 🇺🇲 US蘑菇-美国04-2
+      - 🇨🇳 TW蘑菇-台湾05-1
+      - 🇨🇳 TW蘑菇-台湾05-2
+      - 🇰🇷 KR蘑菇-韩国03-2
+      - 🇸🇬 SG蘑菇-新加坡04-1
+      - 🇰🇷 KR蘑菇-韩国04-2
+      - 🇺🇲 US蘑菇-美国04-3
+      - 🇰🇷 KR蘑菇-韩国03-1
+      - 🇯🇵 JP蘑菇-日本03-1
+      - 🇺🇲 US蘑菇-美国03-2
+      - 🇨🇳 TW蘑菇-台湾06-2
+      - 🇺🇲 US蘑菇-美国06-3
+      - 🇮🇳 ID蘑菇-印度06-1
+      - 🇯🇵 JP蘑菇-日本06-1
+      - 🇰🇷 KR蘑菇-韩国01-1
+      - 🇸🇬 SG蘑菇-新加坡06-1
+      - 🇻🇳 VN蘑菇-VN越南06-1
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 SG蘑菇-新加坡测试01
-      - 🇸🇬 SG蘑菇-新加坡测试02
-      - 🇸🇬 SG蘑菇-新加坡测试03
-      - 🇸🇬 SG蘑菇-新加坡测试04
-      - 🇰🇷 KR蘑菇-韩国01
-      - 🇰🇷 KR蘑菇-韩国02
-      - 🇰🇷 KR蘑菇-韩国03
-      - 🇰🇷 KR蘑菇-韩国04
-      - 🇰🇷 KR蘑菇-韩国05
-      - 🇰🇷 KR蘑菇-韩国06
-      - 🇨🇳 TW蘑菇-台湾01
-      - 🇨🇳 TW蘑菇-台湾02
-      - 🇨🇳 TW蘑菇-台湾03
-      - 🇨🇳 TW蘑菇-台湾04
-      - 🇨🇳 TW蘑菇-台湾05
-      - 🇨🇳 TW蘑菇-台湾06
+      - 🇯🇵 JP蘑菇-日本01-1
+      - 🇺🇲 US蘑菇-美国03-1
+      - 🇺🇲 US蘑菇-美国06-1
+      - 🇸🇬 SG蘑菇-新加坡05-1
       - 🇺🇲 US蘑菇-美国01-1
-      - 🇺🇲 US蘑菇-美国01-2
+      - 🇺🇲 US蘑菇-美国05-1
       - 🇺🇲 US蘑菇-美国01-3
-      - 🇺🇲 US蘑菇-美国01-4
-      - 🇺🇲 US蘑菇-美国01-5
-      - 🇺🇲 US蘑菇-美国01-6
-      - 🇺🇲 US蘑菇-美国02-1
-      - 🇺🇲 US蘑菇-美国02-2
+      - 🇨🇳 TW蘑菇-台湾06-1
+      - 🇰🇷 KR蘑菇-韩国01-2
+      - 🇰🇷 KR蘑菇-韩国02-2
+      - 🇰🇷 KR蘑菇-韩国05-2
+      - 🇸🇬 SG蘑菇-新加坡测试01-1
+      - 🇻🇳 VN蘑菇-越南02-1
+      - 🇯🇵 JP蘑菇-日本02-1
+      - 🇯🇵 JP蘑菇-日本05-1
+      - 🇺🇲 US蘑菇-美国05-3
       - 🇺🇲 US蘑菇-美国02-3
-      - 🇺🇲 US蘑菇-美国02-4
-      - 🇺🇲 US蘑菇-美国02-5
-      - 🇺🇲 US蘑菇-美国02-6
+      - 🇮🇳 ID蘑菇-印度05-1
+      - 🇮🇳 ID蘑菇-印度03-1
+      - 🇮🇳 ID蘑菇-印度04-1
+      - 🇰🇷 KR蘑菇-韩国06-2
+      - 🇻🇳 VN蘑菇-越南04-1
+      - 🇻🇳 VN蘑菇-越南05-1
+      - 🇻🇳 VN蘑菇-越南03-1
+      - 🇸🇬 SG蘑菇-新加坡02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-1
+      - 🇨🇳 TW蘑菇-台湾02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-2
+      - 🇨🇳 TW蘑菇-台湾04-1
+      - 🇮🇳 ID蘑菇-印度01-1
+      - 🇮🇳 ID蘑菇-印度02-1
+      - 🇯🇵 JP蘑菇-日本04-1
+      - 🇨🇳 TW蘑菇-台湾01-1
+      - 🇺🇲 US蘑菇-美国04-1
+      - 🇸🇬 SG蘑菇-新加坡测试01-2
+      - 🇺🇲 US蘑菇-美国05-2
+      - 🇨🇳 TW蘑菇-台湾03-1
+      - 🇰🇷 KR蘑菇-韩国06-1
+      - 🇨🇳 TW蘑菇-台湾04-2
+      - 🇺🇲 US蘑菇-美国02-1
+      - 🇰🇷 KR蘑菇-韩国04-1
+      - 🇺🇲 US蘑菇-美国01-2
+      - 🇸🇬 SG蘑菇-新加坡03-1
+      - 🇺🇲 US蘑菇-美国02-2
+      - 🇺🇲 US蘑菇-美国06-2
+      - 🇰🇷 KR蘑菇-韩国05-1
+      - 🇰🇷 KR蘑菇-韩国02-1
+      - 🇨🇳 TW蘑菇-台湾01-2
+      - 🇨🇳 TW蘑菇-台湾02-2
+      - 🇻🇳 VN蘑菇-VN越南01-1
+      - 🇸🇬 SG蘑菇-新加坡01-1
+      - 🇨🇳 TW蘑菇-台湾03-2
+      - 🇺🇲 US蘑菇-美国03-3
+      - 🇺🇲 US蘑菇-美国04-2
+      - 🇨🇳 TW蘑菇-台湾05-1
+      - 🇨🇳 TW蘑菇-台湾05-2
+      - 🇰🇷 KR蘑菇-韩国03-2
+      - 🇸🇬 SG蘑菇-新加坡04-1
+      - 🇰🇷 KR蘑菇-韩国04-2
+      - 🇺🇲 US蘑菇-美国04-3
+      - 🇰🇷 KR蘑菇-韩国03-1
+      - 🇯🇵 JP蘑菇-日本03-1
+      - 🇺🇲 US蘑菇-美国03-2
+      - 🇨🇳 TW蘑菇-台湾06-2
+      - 🇺🇲 US蘑菇-美国06-3
+      - 🇮🇳 ID蘑菇-印度06-1
+      - 🇯🇵 JP蘑菇-日本06-1
+      - 🇰🇷 KR蘑菇-韩国01-1
+      - 🇸🇬 SG蘑菇-新加坡06-1
+      - 🇻🇳 VN蘑菇-VN越南06-1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -290,34 +626,76 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 SG蘑菇-新加坡测试01
-      - 🇸🇬 SG蘑菇-新加坡测试02
-      - 🇸🇬 SG蘑菇-新加坡测试03
-      - 🇸🇬 SG蘑菇-新加坡测试04
-      - 🇰🇷 KR蘑菇-韩国01
-      - 🇰🇷 KR蘑菇-韩国02
-      - 🇰🇷 KR蘑菇-韩国03
-      - 🇰🇷 KR蘑菇-韩国04
-      - 🇰🇷 KR蘑菇-韩国05
-      - 🇰🇷 KR蘑菇-韩国06
-      - 🇨🇳 TW蘑菇-台湾01
-      - 🇨🇳 TW蘑菇-台湾02
-      - 🇨🇳 TW蘑菇-台湾03
-      - 🇨🇳 TW蘑菇-台湾04
-      - 🇨🇳 TW蘑菇-台湾05
-      - 🇨🇳 TW蘑菇-台湾06
+      - 🇯🇵 JP蘑菇-日本01-1
+      - 🇺🇲 US蘑菇-美国03-1
+      - 🇺🇲 US蘑菇-美国06-1
+      - 🇸🇬 SG蘑菇-新加坡05-1
       - 🇺🇲 US蘑菇-美国01-1
-      - 🇺🇲 US蘑菇-美国01-2
+      - 🇺🇲 US蘑菇-美国05-1
       - 🇺🇲 US蘑菇-美国01-3
-      - 🇺🇲 US蘑菇-美国01-4
-      - 🇺🇲 US蘑菇-美国01-5
-      - 🇺🇲 US蘑菇-美国01-6
-      - 🇺🇲 US蘑菇-美国02-1
-      - 🇺🇲 US蘑菇-美国02-2
+      - 🇨🇳 TW蘑菇-台湾06-1
+      - 🇰🇷 KR蘑菇-韩国01-2
+      - 🇰🇷 KR蘑菇-韩国02-2
+      - 🇰🇷 KR蘑菇-韩国05-2
+      - 🇸🇬 SG蘑菇-新加坡测试01-1
+      - 🇻🇳 VN蘑菇-越南02-1
+      - 🇯🇵 JP蘑菇-日本02-1
+      - 🇯🇵 JP蘑菇-日本05-1
+      - 🇺🇲 US蘑菇-美国05-3
       - 🇺🇲 US蘑菇-美国02-3
-      - 🇺🇲 US蘑菇-美国02-4
-      - 🇺🇲 US蘑菇-美国02-5
-      - 🇺🇲 US蘑菇-美国02-6
+      - 🇮🇳 ID蘑菇-印度05-1
+      - 🇮🇳 ID蘑菇-印度03-1
+      - 🇮🇳 ID蘑菇-印度04-1
+      - 🇰🇷 KR蘑菇-韩国06-2
+      - 🇻🇳 VN蘑菇-越南04-1
+      - 🇻🇳 VN蘑菇-越南05-1
+      - 🇻🇳 VN蘑菇-越南03-1
+      - 🇸🇬 SG蘑菇-新加坡02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-1
+      - 🇨🇳 TW蘑菇-台湾02-1
+      - 🇸🇬 SG蘑菇-新加坡测试02-2
+      - 🇨🇳 TW蘑菇-台湾04-1
+      - 🇮🇳 ID蘑菇-印度01-1
+      - 🇮🇳 ID蘑菇-印度02-1
+      - 🇯🇵 JP蘑菇-日本04-1
+      - 🇨🇳 TW蘑菇-台湾01-1
+      - 🇺🇲 US蘑菇-美国04-1
+      - 🇸🇬 SG蘑菇-新加坡测试01-2
+      - 🇺🇲 US蘑菇-美国05-2
+      - 🇨🇳 TW蘑菇-台湾03-1
+      - 🇰🇷 KR蘑菇-韩国06-1
+      - 🇨🇳 TW蘑菇-台湾04-2
+      - 🇺🇲 US蘑菇-美国02-1
+      - 🇰🇷 KR蘑菇-韩国04-1
+      - 🇺🇲 US蘑菇-美国01-2
+      - 🇸🇬 SG蘑菇-新加坡03-1
+      - 🇺🇲 US蘑菇-美国02-2
+      - 🇺🇲 US蘑菇-美国06-2
+      - 🇰🇷 KR蘑菇-韩国05-1
+      - 🇰🇷 KR蘑菇-韩国02-1
+      - 🇨🇳 TW蘑菇-台湾01-2
+      - 🇨🇳 TW蘑菇-台湾02-2
+      - 🇻🇳 VN蘑菇-VN越南01-1
+      - 🇸🇬 SG蘑菇-新加坡01-1
+      - 🇨🇳 TW蘑菇-台湾03-2
+      - 🇺🇲 US蘑菇-美国03-3
+      - 🇺🇲 US蘑菇-美国04-2
+      - 🇨🇳 TW蘑菇-台湾05-1
+      - 🇨🇳 TW蘑菇-台湾05-2
+      - 🇰🇷 KR蘑菇-韩国03-2
+      - 🇸🇬 SG蘑菇-新加坡04-1
+      - 🇰🇷 KR蘑菇-韩国04-2
+      - 🇺🇲 US蘑菇-美国04-3
+      - 🇰🇷 KR蘑菇-韩国03-1
+      - 🇯🇵 JP蘑菇-日本03-1
+      - 🇺🇲 US蘑菇-美国03-2
+      - 🇨🇳 TW蘑菇-台湾06-2
+      - 🇺🇲 US蘑菇-美国06-3
+      - 🇮🇳 ID蘑菇-印度06-1
+      - 🇯🇵 JP蘑菇-日本06-1
+      - 🇰🇷 KR蘑菇-韩国01-1
+      - 🇸🇬 SG蘑菇-新加坡06-1
+      - 🇻🇳 VN蘑菇-VN越南06-1
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
